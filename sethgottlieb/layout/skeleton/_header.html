@@ -1,0 +1,22 @@
+<hgroup>
+<div id="header">
+    <a href="{{ site.url }}/index.html"><h1>{{ site.name }}</h1></a>
+</div>
+</hgroup>
+{% block context_nav %}{% endblock %}
+{% block sitenav %}
+<nav>
+<div id="sitenav">
+    <ul id="topnav">
+        <li{% ifequal page.module site.module %} class="highlighted" {% endifequal %}>
+            <a href="{{ site.listing_url }}">Home</a>
+        </li>    
+        {% for module in site.children %}
+        <li{% ifequal page.module module %} class="highlighted" {% endifequal %}>
+            <a href="{{ module.listing_url }}">{{ module.name|unslugify }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+</nav>
+{% endblock %}

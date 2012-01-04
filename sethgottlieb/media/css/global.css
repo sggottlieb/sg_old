@@ -1,0 +1,272 @@
+/*
+Start to add some complimentary colors
+http://www.hypergurl.com/colormatch.php?color=669966
+
+*/
+
+
+body {
+	background-color:#FFF;
+	font-family:Helvetica;
+	padding:0px 0px 0px 0px;
+	margin:0px 0px 0px 0px;
+	color:#333;
+}
+
+
+h1,h3 {
+	color:#333;
+	font-size:125%;
+}
+
+
+
+header h1 {
+	border-bottom:15px solid #D6D6C2;
+	color:#FFF;
+	font-size: 250%;
+	letter-spacing:5px;
+	padding: 15px 0px 10px 100px;
+	margin:0px 0px 0px 0px;
+	background-color:#669966;
+}
+
+header a {
+	text-decoration:none;
+	color:#FFF;
+}
+
+
+#narrow {
+	width:200px;
+	float:right;
+	padding:0px 10px 0px 10px;
+	border-left:1px solid #D6D6C2;
+	vertical-align:top;
+	margin:0px 10px 0px 10px;
+}
+#wide {
+	padding:15px;
+	float:left;
+	vertical-align:top;
+
+}
+#main-content {
+	width:900px;
+	position:relative;
+	margin-left:100px;
+	background-color:#fff;
+	padding:0px 15px 15px 15px;
+	overflow:auto;
+	margin-bottom:0px;
+	line-height:1.5;
+	font-size:100%;
+	
+}
+
+nav {
+	
+    left: 100px;
+	width:900px;
+	background-color:#fff;
+	position: relative;
+	/*padding:0px 15px 15px 15px;*/
+	overflow:auto;
+	line-height:1.5;
+	font-size:100%;
+}
+
+nav ul {
+    padding-left:0px;
+    padding-top:0px;
+    margin-top:3px;
+    margin-left:15px;
+}
+
+nav li {
+	display: inline;
+	text-align: right;
+	color:#333;
+	margin:0px 0px 0px 0px;
+	padding-bottom:5px;
+	
+}
+
+nav a {
+	text-decoration:none;
+	color:#333;
+	padding:3px 30px 3px 2px;
+
+}
+
+nav a:hover {
+	color: #FFF;
+	background-color:#666;
+}
+
+
+
+.highlighted {
+	border-bottom: 3px solid #669966;
+
+}
+
+aside {
+    float: right;
+    padding: 30px 0px 0px 50px;
+}
+
+a#linkedin-link {
+    text-decoration:none;
+    color:#FFF;
+}
+	
+#main-content a {
+	color:#333;
+
+}
+footer {
+	clear:both;
+	background-color:#669966;
+	border-top:2px solid #D6D6C2;
+	padding:10px;
+	color:#FFF;
+	text-align:center;
+	display:block;
+	
+}
+#narrow *, #content p {
+margin: 5px 5px 5px 10px;
+}
+
+#narrow img {
+	border:0px;
+}
+
+.services, #services-nav {
+	padding-left:0px;
+	margin-left:0px;
+	list-style-type: none;
+	font-size:80%;
+}
+
+#services-nav li a {
+    padding: 0px 0px 0px 80px;
+    margin: 0px 0px 0px 0px;
+    text-decoration: none;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.service-icon {
+    background:transparent url(../img/other.png) no-repeat scroll 0 0;
+    display:block;
+    min-height:34px;
+    min-width:34px;
+    overflow:hidden;
+    padding:0px 0px 30px 0px;
+    margin: 15px 0px 15px 0px;
+    text-decoration:none;
+    color:#333;
+}
+
+
+.service-icon h3 {
+    margin: 0px 0px 0px 80px;
+}
+
+.service-icon h3 a {
+    text-decoration: none;
+}
+
+.service-icon p {
+    margin: 0px 0px 0px 80px;
+}
+
+.service-amazon {
+	background-image:url(../img/amazon.png);
+}
+
+.service-brightkite {
+	background-image:url(../img/brightkite.png);
+}
+.service-flickr {
+	background-image:url(../img/flickr.png);
+}
+
+.service-contenthere {
+	background-image:url(../img/contenthere.png);
+}
+
+.service-friendfeed {
+	background-image:url(../img/friendfeed.png);
+}
+
+.service-facebook {
+	background-image:url(../img/facebook.png);
+}
+
+.service-twitter {
+	background-image:url(../img/twitter.png);
+}
+
+
+.service-scribd {
+	background-image:url(../img/scribd.png);
+}
+.service-delicious {
+	background-image:url(../img/delicious.png);
+}
+
+.service-tripit {
+	background-image:url(../img/tripit.png);
+}
+
+.service-tumblr {
+	background-image:url(../img/tumblr.png);
+}
+
+.service-google {
+	background-image:url(../img/google.png);
+}
+
+.service-librarything {
+	background-image:url(../img/librarything.png);
+}
+
+
+.service-dailymile {
+	background-image:url(../img/dailymile.png);
+}
+
+.service-meetup {
+	background-image:url(../img/meetup.png);
+}
+
+.service-slideshare {
+	background-image:url(../img/slideshare.png);
+}
+
+.service-dandyid {
+	background-image:url(../img/dandyid.png);
+}
+
+.service-stackoverflow {
+	background-image:url(../img/stack-overflow.png);
+}
+
+.service-pinboard {
+	background-image:url(../img/pinboard.png);
+}
+
+.service-identica {
+	background-image:url(../img/identica.png);
+}
+
+
+.service-chmp {
+	background-image:url(../img/chmp.png);
+}
+/**
+	color:#D6D6C2;
+	**/
