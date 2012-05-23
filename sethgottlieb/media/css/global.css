@@ -263,6 +263,15 @@ margin: 5px 5px 5px 10px;
 	background-image:url(../img/hashable.png);
 }
 
+.service-github {
+	background-image:url(../img/github.png);
+}
+
+
+.service-quora {
+	background-image:url(../img/quora.png);
+}
+
 .service-identica {
 	background-image:url(../img/identica.png);
 }
